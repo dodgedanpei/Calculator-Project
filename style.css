@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
 }
 
 button {
@@ -30,6 +31,10 @@ button {
     width: 100px;
     border-radius: 10%;
     border: none;
+}
+
+button:hover {
+    border: 2px solid black;
 }
 
 .container {
